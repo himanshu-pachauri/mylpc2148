@@ -1,0 +1,3 @@
+Dependencies for Project 'sg', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x43D4F5CE)(--device DARMP -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o Startup.o)
+F (.\sg.c)(0x53113D78)(-c --device DARMP -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "sg.o")

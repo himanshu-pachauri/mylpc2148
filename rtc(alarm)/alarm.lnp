@@ -1,0 +1,4 @@
+"startup.o" "alarm.o" --strict --scatter "alarm.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\alarm.map" -o "alarm.axf"

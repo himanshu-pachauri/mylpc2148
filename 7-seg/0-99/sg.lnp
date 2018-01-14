@@ -1,0 +1,4 @@
+"startup.o" "sg.o" --strict --scatter "sg.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sg.map" -o "sg.axf"

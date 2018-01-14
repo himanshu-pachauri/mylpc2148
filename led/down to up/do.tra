@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'do.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"do.o"'
+### ADS-LD Command completed:
+"startup.o" "do.o" --strict --scatter "do.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\do.map" -o "do.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'do.axf'
+### ADS-LD Command File: 'do.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'do.lnp', Handle=0x00000508
+### Writing '.lnp' file
+### ADS-LD Command file 'do.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,4 @@
+"startup.o" "master.o" --strict --scatter "master.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\master.map" -o "master.axf"

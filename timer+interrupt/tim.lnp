@@ -1,0 +1,4 @@
+"startup.o" "tim.o" --strict --scatter "tim.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tim.map" -o "tim.axf"

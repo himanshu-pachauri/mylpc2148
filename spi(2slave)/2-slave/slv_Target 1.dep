@@ -1,0 +1,3 @@
+Dependencies for Project 'slv', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x43D47036)(--device DARMP -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o Startup.o)
+F (.\slv.c)(0x5339B22D)(-c --device DARMP -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "slv.o")

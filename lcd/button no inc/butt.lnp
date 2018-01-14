@@ -1,0 +1,4 @@
+"startup.o" "button.o" --strict --scatter "butt.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\butt.map" -o "butt.axf"

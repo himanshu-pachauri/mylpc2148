@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\drive\EMBEDDED SYTEM COMPLETE\MBED CODING\ARm7\i2c\master\mas.uvproj
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling mas.c...
+mas.c(2): warning:  #951-D: return type of function "main" must be "int"
+mas.c:   void main()
+mas.c:        ^
+mas.c(4): warning:  #177-D: variable "i" was declared but never referenced
+mas.c:   unsigned int i;
+mas.c:                ^
+mas.c: mas.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=916 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"mas.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling mas.c...
+mas.c(2): warning:  #951-D: return type of function "main" must be "int"
+mas.c:   void main()
+mas.c:        ^
+mas.c(4): warning:  #177-D: variable "i" was declared but never referenced
+mas.c:   unsigned int i;
+mas.c:                ^
+mas.c: mas.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=916 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"mas.axf" - 0 Error(s), 2 Warning(s).

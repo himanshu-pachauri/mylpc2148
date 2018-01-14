@@ -1,0 +1,4 @@
+"startup.o" "pls.o" --strict --scatter "pls.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pls.map" -o "pls.axf"

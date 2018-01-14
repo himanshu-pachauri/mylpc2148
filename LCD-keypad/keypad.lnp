@@ -1,0 +1,4 @@
+"startup.o" "keypad.o" --strict --scatter "keypad.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\keypad.map" -o "keypad.axf"

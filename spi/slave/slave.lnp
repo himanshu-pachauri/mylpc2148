@@ -1,0 +1,4 @@
+"startup.o" "slv.o" --strict --scatter "slave.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\slave.map" -o "slave.axf"

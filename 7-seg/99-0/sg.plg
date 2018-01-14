@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\rana\Desktop\sofcon\7-seg\99-0\sg.uv2
+Project File Date:  04/03/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling sg.c...
+sg.c(2): warning:  #951-D: return type of function "main" must be "int"
+sg.c(10): error:  #29: expected an expression
+sg.c(10): warning:  #1293-D: assignment in condition
+sg.c(19): warning:  #1-D: last line of file ends without a newline
+Target not created
+compiling sg.c...
+sg.c(2): warning:  #951-D: return type of function "main" must be "int"
+sg.c(10): error:  #29: expected an expression
+sg.c(10): warning:  #1293-D: assignment in condition
+sg.c(19): warning:  #1-D: last line of file ends without a newline
+sg.c - 1 Error(s), 3 Warning(s).
+compiling sg.c...
+sg.c(2): warning:  #951-D: return type of function "main" must be "int"
+sg.c(19): warning:  #1-D: last line of file ends without a newline
+sg.c - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+FromELF: creating hex file...
+"sg.axf" - 0 Error(s), 0 Warning(s).

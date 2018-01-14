@@ -1,0 +1,4 @@
+"startup.o" "pt.o" --strict --scatter "PT.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\PT.map" -o "PT.axf"

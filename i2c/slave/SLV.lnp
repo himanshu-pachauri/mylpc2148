@@ -1,0 +1,4 @@
+"startup.o" "slv.o" --strict --scatter "SLV.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SLV.map" -o "SLV.axf"

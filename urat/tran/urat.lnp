@@ -1,0 +1,4 @@
+"startup.o" "urat.o" --strict --scatter "urat.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\urat.map" -o "urat.axf"

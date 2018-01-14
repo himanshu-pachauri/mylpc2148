@@ -1,0 +1,4 @@
+"startup.o" "led.o" --strict --scatter "led.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led.map" -o "led.axf"

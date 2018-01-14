@@ -1,0 +1,4 @@
+"startup.o" "do.o" --strict --scatter "do.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\do.map" -o "do.axf"

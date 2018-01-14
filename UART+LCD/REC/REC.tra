@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'REC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"rec.o"'
+### ADS-LD Command completed:
+"startup.o" "rec.o" --strict --scatter "REC.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\REC.map" -o "REC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'REC.axf'
+### ADS-LD Command File: 'REC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'REC.lnp', Handle=0x0000059C
+### Writing '.lnp' file
+### ADS-LD Command file 'REC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

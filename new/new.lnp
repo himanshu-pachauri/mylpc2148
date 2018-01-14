@@ -1,0 +1,4 @@
+"startup.o" "new.o" --strict --scatter "new.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\new.map" -o "new.axf"

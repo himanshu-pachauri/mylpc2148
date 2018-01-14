@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'pri.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"pri.o"'
+### ADS-LD Command completed:
+"startup.o" "pri.o" --strict --scatter "pri.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pri.map" -o "pri.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'pri.axf'
+### ADS-LD Command File: 'pri.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'pri.lnp', Handle=0x00000534
+### Writing '.lnp' file
+### ADS-LD Command file 'pri.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

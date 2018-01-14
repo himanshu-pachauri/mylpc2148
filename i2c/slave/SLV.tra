@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'SLV.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"slv.o"'
+### ADS-LD Command completed:
+"startup.o" "slv.o" --strict --scatter "SLV.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SLV.map" -o "SLV.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'SLV.axf'
+### ADS-LD Command File: 'SLV.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'SLV.lnp', Handle=0x00000188
+### Writing '.lnp' file
+### ADS-LD Command file 'SLV.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

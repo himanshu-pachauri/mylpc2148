@@ -1,0 +1,4 @@
+"startup.o" "rec.o" --strict --scatter "REC.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\REC.map" -o "REC.axf"

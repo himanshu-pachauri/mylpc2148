@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'mult.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"mult.o"'
+### ADS-LD Command completed:
+"startup.o" "mult.o" --strict --scatter "mult.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mult.map" -o "mult.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'mult.axf'
+### ADS-LD Command File: 'mult.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'mult.lnp', Handle=0x00000668
+### Writing '.lnp' file
+### ADS-LD Command file 'mult.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

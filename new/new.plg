@@ -1,0 +1,306 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\rana\Desktop\sofcon\new\new.uv2
+Project File Date:  04/04/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(15): error:  #20: identifier "i" is undefined
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(16): error:  #20: identifier "i" is undefined
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(11): error:  #525: a dependent statement may not be a declaration
+new.c(12): error:  #65: expected a ";"
+new.c(23): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+new.c(6): warning:  #177-D: variable "x" was declared but never referenced
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(23): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "x" was declared but never referenced
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(11): error:  #169: expected a declaration
+new.c(24): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "x" was declared but never referenced
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(11): error:  #169: expected a declaration
+new.c(26): warning:  #1-D: last line of file ends without a newline
+new.c(26): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "x" was declared but never referenced
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(16): error:  #20: identifier "i" is undefined
+new.c(22): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(12): error:  #101: "x" has already been declared in the current scope
+new.c(13): error:  #75: operand of "*" must be a pointer
+new.c(15): error:  #75: operand of "*" must be a pointer
+new.c(20): error:  #75: operand of "*" must be a pointer
+new.c(23): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(12): error:  #101: "x" has already been declared in the current scope
+new.c(13): error:  #75: operand of "*" must be a pointer
+new.c(15): error:  #75: operand of "*" must be a pointer
+new.c(21): error:  #79: expected a type specifier
+new.c(21): warning:  #77-D: this declaration has no storage class or type specifier
+new.c(21): error:  #147: declaration is incompatible with "void cmd(unsigned char)" (declared at line 17 of "lcd.h")
+new.c(22): error:  #169: expected a declaration
+new.c(23): error:  #79: expected a type specifier
+new.c(23): warning:  #77-D: this declaration has no storage class or type specifier
+new.c(23): error:  #147: declaration is incompatible with "void value(unsigned int)" (declared at line 44 of "lcd.h")
+new.c(24): warning:  #1-D: last line of file ends without a newline
+new.c(24): error:  #169: expected a declaration
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(17): error:  #20: identifier "i" is undefined
+new.c(21): error:  #79: expected a type specifier
+new.c(21): warning:  #77-D: this declaration has no storage class or type specifier
+new.c(21): error:  #147: declaration is incompatible with "void cmd(unsigned char)" (declared at line 17 of "lcd.h")
+new.c(22): error:  #169: expected a declaration
+new.c(23): error:  #79: expected a type specifier
+new.c(23): warning:  #77-D: this declaration has no storage class or type specifier
+new.c(23): error:  #147: declaration is incompatible with "void value(unsigned int)" (declared at line 44 of "lcd.h")
+new.c(24): warning:  #1-D: last line of file ends without a newline
+new.c(24): error:  #169: expected a declaration
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(17): error:  #20: identifier "i" is undefined
+new.c(21): error:  #79: expected a type specifier
+new.c(21): warning:  #77-D: this declaration has no storage class or type specifier
+new.c(21): error:  #147: declaration is incompatible with "void cmd(unsigned char)" (declared at line 17 of "lcd.h")
+new.c(22): error:  #169: expected a declaration
+new.c(23): error:  #79: expected a type specifier
+new.c(23): warning:  #77-D: this declaration has no storage class or type specifier
+new.c(23): error:  #147: declaration is incompatible with "void value(unsigned int)" (declared at line 44 of "lcd.h")
+new.c(24): warning:  #1-D: last line of file ends without a newline
+new.c(24): error:  #169: expected a declaration
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(18): error:  #20: identifier "i" is undefined
+new.c(20): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(6): warning:  #177-D: variable "i" was declared but never referenced
+new.c(19): error:  #20: identifier "i" is undefined
+new.c(21): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(22): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(23): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(22): warning:  #1-D: last line of file ends without a newline
+new.c - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(22): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(10): warning:  #111-D: statement is unreachable
+new.c(23): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(10): warning:  #111-D: statement is unreachable
+new.c(23): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(8): error:  #20: identifier "i" is undefined
+new.c(11): warning:  #111-D: statement is unreachable
+new.c(24): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(8): error:  #20: identifier "i" is undefined
+new.c(11): warning:  #111-D: statement is unreachable
+new.c(24): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(11): warning:  #111-D: statement is unreachable
+new.c(24): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(11): warning:  #111-D: statement is unreachable
+new.c(23): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling new.c...
+lcd.h(6): warning:  #1295-D: Deprecated declaration delay - give arg types
+new.c(4): warning:  #951-D: return type of function "main" must be "int"
+new.c(21): warning:  #1-D: last line of file ends without a newline
+linking...
+FromELF: creating hex file...
+"new.axf" - 0 Error(s), 3 Warning(s).

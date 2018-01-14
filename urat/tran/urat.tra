@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'urat.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"urat.o"'
+### ADS-LD Command completed:
+"startup.o" "urat.o" --strict --scatter "urat.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\urat.map" -o "urat.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'urat.axf'
+### ADS-LD Command File: 'urat.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'urat.lnp', Handle=0x000004EC
+### Writing '.lnp' file
+### ADS-LD Command file 'urat.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

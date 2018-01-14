@@ -1,0 +1,4 @@
+"startup.o" "up.o" --strict --scatter "up.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\up.map" -o "up.axf"

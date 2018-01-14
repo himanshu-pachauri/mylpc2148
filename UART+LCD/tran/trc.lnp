@@ -1,0 +1,4 @@
+"startup.o" "tre.o" --strict --scatter "trc.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\trc.map" -o "trc.axf"

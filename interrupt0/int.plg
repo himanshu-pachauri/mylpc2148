@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\drive\EMBEDDED SYTEM COMPLETE\MBED CODING\ARm7\interrupt0\int.uvproj
+Project File Date:  10/14/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling int.c...
+int.c(12): warning:  #951-D: return type of function "main" must be "int"
+int.c:   void main()
+int.c:        ^
+int.c: int.c: 1 warning, 0 errors
+linking...
+Program Size: Code=628 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"int.axf" - 0 Error(s), 1 Warning(s).

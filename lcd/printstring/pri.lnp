@@ -1,0 +1,4 @@
+"startup.o" "pri.o" --strict --scatter "pri.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pri.map" -o "pri.axf"

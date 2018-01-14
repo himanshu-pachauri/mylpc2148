@@ -1,0 +1,19 @@
+*** Creating Trace Output File 'int.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"int.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "int.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\int.map" -o "int.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'int.axf'
+### ADS-LD Command File: 'int.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'int.lnp', Handle=0x0000029C
+### Writing '.lnp' file
+### ADS-LD Command file 'int.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'new.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"new.o"'
+### ADS-LD Command completed:
+"startup.o" "new.o" --strict --scatter "new.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\new.map" -o "new.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'new.axf'
+### ADS-LD Command File: 'new.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'new.lnp', Handle=0x00000280
+### Writing '.lnp' file
+### ADS-LD Command file 'new.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

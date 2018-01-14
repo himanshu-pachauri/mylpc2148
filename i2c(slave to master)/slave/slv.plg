@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\rana\Desktop\sofcon\i2c(slave to master)\slave\slv.uv2
+Project File Date:  02/28/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling slv.c...
+slv.c(2): warning:  #951-D: return type of function "main" must be "int"
+slv.c(15): warning:  #1-D: last line of file ends without a newline
+slv.c(4): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+FromELF: creating hex file...
+"slv.axf" - 0 Error(s), 3 Warning(s).

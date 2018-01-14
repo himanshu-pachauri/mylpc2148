@@ -1,0 +1,4 @@
+"startup.o" "rx.o" --strict --scatter "rx.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rx.map" -o "rx.axf"

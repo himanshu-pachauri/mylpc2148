@@ -1,0 +1,4 @@
+"startup.o" "blk.o" --strict --scatter "blnk.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blnk.map" -o "blnk.axf"

@@ -1,0 +1,4 @@
+"startup.o" "key.o" --strict --scatter "key.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\key.map" -o "key.axf"

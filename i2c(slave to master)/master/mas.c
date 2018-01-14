@@ -1,0 +1,27 @@
+#include<lpc21xx.h>
+void main()
+{
+unsigned int i;
+for(i=0;i<190000;i++);
+IODIR1=0XFFFFFFFF;
+IOCLR1=0xFFFFFFFF;
+PINSEL0=0x50;
+I2SCLH=0XFF;
+I2SCLL=0XFF;
+I2CONCLR=0X74;
+I2CONSET=0X00000044;
+I2CONSET=0X00000064;
+
+while(!(I2CONSET&0x08));
+I2DAT=0X51;     //0-write,5-add of slave
+I2CONCLR=0X28;
+
+while(!(I2CONSET&0x08));
+IOSET1=I2DAT<<16;
+for(i=0;i<6500;i++);
+IOCLR1=0xFFFFFFFF;
+I2CONCLR=0X08;
+while(I2STAT!=0X28);
+IOCLR1=0xFFFFFFFF;
+
+}

@@ -1,0 +1,4 @@
+"startup.o" "adc.o" --strict --scatter "adc.sct" 
+--map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\adc.map" -o "adc.axf"
